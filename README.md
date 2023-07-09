@@ -1,5 +1,6 @@
 # nodeapp
 
+# This repo is for testing ecs pipeline
 The following files are used for deploying the node app in ecs using Jenkinsfile in the Jenkins pipeline  
 Jenkinsfile
 script.sh
