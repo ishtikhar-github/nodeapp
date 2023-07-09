@@ -23,6 +23,15 @@ pipeline {
         }
       }
     }
+
+ // Remove Docker Images
+    stage('Remove Docker Image') {
+      steps{
+        script {
+          sh 'docker image prune -a -f'
+        }
+      }
+   }
         
     // Building Docker images
     stage('Building image') {
